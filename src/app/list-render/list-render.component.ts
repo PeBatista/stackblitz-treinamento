@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Animal } from './animal';
-import { ListService } from './services/list.service';
 
 @Component({
   selector: 'app-list-render',
@@ -37,7 +36,7 @@ export class ListRenderComponent implements OnInit {
 
   animalDetalhes = '';
 
-  constructor(private listService: ListService) {
+  constructor() {
 
   }
 
