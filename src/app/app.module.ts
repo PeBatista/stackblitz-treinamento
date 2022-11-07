@@ -13,6 +13,9 @@ import { RouterMikeModule } from './app.routing.module';
 import { EmitterComponent } from './emitter/emitter.component';
 import { ChangeNumberComponent } from './change-number/change-number.component';
 import { ListRenderComponent } from './list-render/list-render.component';
+import { PipeComponent } from './pipe/pipe.component';
+import { TwoBindingComponent } from './two-binding/two-binding.component';
+
 
 @NgModule({
   imports: [BrowserModule, FormsModule, RouterMikeModule],
@@ -27,6 +30,8 @@ import { ListRenderComponent } from './list-render/list-render.component';
     EventosComponent,
     PatoComponent,
     ChangeNumberComponent,
+    PipeComponent,
+    TwoBindingComponent
   ],
   bootstrap: [AppComponent],
 })
